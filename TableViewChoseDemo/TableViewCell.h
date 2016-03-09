@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TableViewCell.h
 //  TableViewChoseDemo
 //
 //  Created by 益平廖 on 16/3/9.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UITableViewController
-
+@interface TableViewCell : UITableViewCell
 
 @end
-

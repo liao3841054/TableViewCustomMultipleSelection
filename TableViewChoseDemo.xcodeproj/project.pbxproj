@@ -13,6 +13,7 @@
 		92FB6FD71C8FCEFE0082425D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FB6FD51C8FCEFE0082425D /* Main.storyboard */; };
 		92FB6FD91C8FCEFE0082425D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92FB6FD81C8FCEFE0082425D /* Assets.xcassets */; };
 		92FB6FDC1C8FCEFE0082425D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92FB6FDA1C8FCEFE0082425D /* LaunchScreen.storyboard */; };
+		92FB6FE51C8FD1520082425D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 92FB6FE41C8FD1520082425D /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		92FB6FD81C8FCEFE0082425D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92FB6FDB1C8FCEFE0082425D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		92FB6FDD1C8FCEFE0082425D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		92FB6FE31C8FD1520082425D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		92FB6FE41C8FD1520082425D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +70,8 @@
 				92FB6FDA1C8FCEFE0082425D /* LaunchScreen.storyboard */,
 				92FB6FDD1C8FCEFE0082425D /* Info.plist */,
 				92FB6FCC1C8FCEFE0082425D /* Supporting Files */,
+				92FB6FE31C8FD1520082425D /* TableViewCell.h */,
+				92FB6FE41C8FD1520082425D /* TableViewCell.m */,
 			);
 			path = TableViewChoseDemo;
 			sourceTree = "<group>";
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				92FB6FD41C8FCEFE0082425D /* ViewController.m in Sources */,
+				92FB6FE51C8FD1520082425D /* TableViewCell.m in Sources */,
 				92FB6FD11C8FCEFE0082425D /* AppDelegate.m in Sources */,
 				92FB6FCE1C8FCEFE0082425D /* main.m in Sources */,
 			);
